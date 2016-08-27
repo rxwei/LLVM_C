@@ -1,6 +1,8 @@
 #ifndef _LLVM_H_
 #define _LLVM_H_
 
+#define __STDC_LIMIT_MACROS
+
 //#include <llvm-c/Analysis.h>
 //#include <llvm-c/BitReader.h>
 //#include <llvm-c/BitWriter.h>
