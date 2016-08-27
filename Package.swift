@@ -1,5 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "LLVM"
+    name: "LLVM",
+    providers: [
+        .Brew("llvm")
+    ]
 )
