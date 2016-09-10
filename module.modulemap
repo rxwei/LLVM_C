@@ -1,4 +1,4 @@
-module LLVM [system] {
+module LLVM_C [system] {
   umbrella header "LLVM.h"
   link "LLVM"
   export *
