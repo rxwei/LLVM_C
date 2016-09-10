@@ -1,3 +1,6 @@
+#define __STDC_LIMIT_MACROS
+#define __STDC_CONSTANT_MACROS
+
 #import "Analysis.h"
 #import "BitReader.h"
 #import "BitWriter.h"
@@ -9,7 +12,6 @@
 #import "IRReader.h"
 #import "Linker.h"
 #import "LinkTimeOptimizer.h"
-#import "lto.h"
 #import "Object.h"
 #import "OrcBindings.h"
 #import "Support.h"
