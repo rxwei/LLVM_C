@@ -13,6 +13,13 @@ import LLVM_C
 ```
 
 You'll need to specify the path to your LLVM library at `swift build`. For example:
-```
+
+```bash
 swift build -Xcc -I/usr/local/include -Xlinker -L/usr/local/lib
+```
+
+Or use `llvm-config`:
+
+```bash
+swift build -Xcc "`llvm-config --cflags`" -Xlinker "-I`llvm-config --libdir`"
 ```
