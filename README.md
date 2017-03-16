@@ -1,15 +1,16 @@
 # LLVM
-LLVM C APIs for Swift
+LLVM/Clang's C bindings for Swift
 
 ## Package
 Add a dependency:
 ```swift
-.Package(url: "https://github.com/rxwei/LLVM_C", majorVersion: 2, minor: 0)
+.Package(url: "https://github.com/rxwei/LLVM_C", majorVersion: 2, minor: 1)
 ```
 
 ## Module
 ```swift
 import LLVM_C
+import Clang_C
 ```
 
 You'll need to specify the path to your LLVM library at `swift build`. For example:

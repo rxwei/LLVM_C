@@ -3,3 +3,9 @@ module LLVM_C [system] {
   explicit module * { export * }
   link "LLVM"
 }
+
+module Clang_C [system] {
+  umbrella header "Clang_C.h"
+  explicit module * { export * }
+  link "clang"
+}
