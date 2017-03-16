@@ -1,11 +1,11 @@
 module LLVM_C [system] {
-  umbrella header "LLVM/LLVM_C.h"
+  umbrella header "LLVM_C/LLVM_C.h"
   explicit module * { export * }
   link "LLVM"
 }
 
 module Clang_C [system] {
-  umbrella header "Clang/Clang_C.h"
+  umbrella header "Clang_C/Clang_C.h"
   explicit module * { export * }
   link "clang"
 }
